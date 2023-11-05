@@ -1,18 +1,24 @@
-# Vue 3 + TypeScript + Vite
+# We-bbs是一个经典的论坛项目
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+web-bbs采用前后端分离，基于SpringBoot和Vue以及相关技术栈开发。该项目主要功能有，首页一级板块，二级板块的文章显示，热帖和最新贴。用户的资料的修改，例如用户图像的修改和用户名，用户简介。发布文章，文章编辑器：富文本和markdown文档解析为html的内容，文章内容解析代码高亮等模块。
 
-## Recommended IDE Setup
+本前端项目用的技术有：Vue3、axios、vue-router、wangeditor（富文本编辑器），v-md-editor（markdown编辑器），[Element Plus](https://element-plus.org/zh-CN/)(组件库)、pinia(状态管理)。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+本项目的后端开源地址在: [后端链接](https://github.com/AlanKafka/Web-bbs-Server)
 
-## Type Support For `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+本项目克隆后，直接yarn install 即可食用。
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+#### 本项目的展示：
+
+![https://github.com/AlanKafka/we-bbs/blob/master/home.png](https://github.com/AlanKafka/we-bbs/blob/master/home.png)
+
+![https://github.com/AlanKafka/we-bbs/blob/master/code.png](https://github.com/AlanKafka/we-bbs/blob/master/code.png)
+
+![https://github.com/AlanKafka/we-bbs/blob/master/article.png](https://github.com/AlanKafka/we-bbs/blob/master/article.png)
+
+![https://github.com/AlanKafka/we-bbs/blob/master/newpost.png](https://github.com/AlanKafka/we-bbs/blob/master/newpost.png)
+
+![https://github.com/AlanKafka/we-bbs/blob/master/userinfo.png](https://github.com/AlanKafka/we-bbs/blob/master/userinfo.png)
+
